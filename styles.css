@@ -1,0 +1,126 @@
+/* CSS */
+/* GENERAL */
+body {
+  color: #5b5b5b;
+  font-family: Helvetica, Sans-serif;
+  font-size: 14px;
+}
+
+/* input field */
+input {
+  border: #c4c4c4 1px solid;
+  border-radius: 25px;
+  color: #5b5b5b;
+  height: 40px;
+  padding-left: 20px;
+  width: 400px;
+}
+
+/* button */
+button {
+  background-color: #4285f3;
+  border: #1a5fd0 1px solid;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  width: 80px;
+}
+
+button:hover {
+  color: #5998ff;
+}
+
+/* logo */
+.logo {
+  width: 150px;
+}
+
+/* SEARCH PAGE */
+.wrap {
+  text-align: center;
+}
+
+/* logo */
+.wrap .logo {
+  margin-top: 100px;
+}
+
+/* button */
+.wrap .primary {
+  margin-top: 20px;
+}
+
+/* input */
+.wrap [type="text"] {
+  margin-top: 20px;
+}
+
+/* RESULTS PAGE */
+section {
+  border-bottom: 40px;
+  margin-bottom: 40px;
+  width: 700px;
+}
+
+section,
+small {
+  margin-left: 180px;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 2px;
+  margin-bottom: 0;
+}
+
+a {
+  color: #1a0dab;
+}
+
+h2 a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #660099;
+}
+
+li {
+  display: inline;
+  margin-right: 15px;
+}
+
+ul {
+  font-size: 12px;
+  list-style: none;
+  padding: 5px;
+}
+
+p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+div.header {
+  border-bottom: 1px solid #c4c4c4;
+}
+
+div.header img.logo {
+  width: 100px;
+  margin: 5px 30px 10px 10px;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 180px auto;
+}
+
+.small {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
